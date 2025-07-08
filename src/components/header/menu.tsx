@@ -65,6 +65,7 @@ export function Menu() {
                     </li>
                   ))}
               <ThemeToggle />
+              /*
               <li onClick={() => window.open(Homepage)}>
                 <span className="i-ph:github-logo-duotone inline-block" />
                 <span>Star on Github </span>
@@ -87,6 +88,7 @@ export function Menu() {
                   />
                 </a>
               </li>
+               */
             </ol>
           </motion.div>
         </div>
