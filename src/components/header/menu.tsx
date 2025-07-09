@@ -64,30 +64,8 @@ export function Menu() {
                       <span>Github 账号登录</span>
                     </li>
                   ))}
-//              <ThemeToggle />
+              <ThemeToggle />
               
-/**              <li onClick={() => window.open(Homepage)}>*/
-/**                <span className="i-ph:github-logo-duotone inline-block" />*/
-/**                <span>Star on Github </span>*/
-/**              </li>*/
-/**              <li className="flex gap-2 items-center">*/
-///                <a
-//                  href="https://github.com/amclubs/newsnow"
-//                >
-//                  <img
-//                    alt="GitHub stars badge"
-//                    src="https://img.shields.io/github/stars/amclubs/newsnow?logo=github"
-//                  />
-//                </a>
-//                <a
-//                  href="https://github.com/amclubs/newsnow/fork"
-//                >
-//                  <img
-//                    alt="GitHub forks badge"
-//                    src="https://img.shields.io/github/forks/amclubs/newsnow?logo=github"
-//                  />
-//                </a>
-//              </li>
             </ol>
           </motion.div>
         </div>
