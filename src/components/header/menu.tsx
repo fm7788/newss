@@ -75,11 +75,11 @@ export function Menu() {
                 >
                   <img
                     alt="GitHub stars badge"
-                    src="https://img.shields.io/github/stars/amclubs/newsnow?logo=github"
+//                    src="https://img.shields.io/github/stars/amclubs/newsnow?logo=github"
                   />
                 </a>
                 <a
-                  href="https://github.com/amclubs/newsnow/fork"
+//                  href="https://github.com/amclubs/newsnow/fork"
                 >
                   <img
                     alt="GitHub forks badge"
