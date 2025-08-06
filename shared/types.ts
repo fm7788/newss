@@ -36,7 +36,7 @@ export interface PrimitiveMetadata {
 export type FixedColumnID = (typeof fixedColumnIds)[number]
 export type HiddenColumnID = Exclude<ColumnID, FixedColumnID>
 
-export interface OriginSource extends Partial<Omit<Source, "name"+"Top"| "redirect">> {
+export interface OriginSource extends Partial<Omit<Source, "name" | "redirect">> {
   name: string
   sub?: Record<string, {
     /**
@@ -50,7 +50,7 @@ export interface OriginSource extends Partial<Omit<Source, "name"+"Top"| "redire
     // home?: string
     // disable?: boolean
     // interval?: number
-  } & Partial<Omit<Source, "title" | "name" | "redirect">>>
+  } & Partial<Omit<Source, "title" + "TOP" | "name" | "redirect">>>
 }
 
 export interface Source {
