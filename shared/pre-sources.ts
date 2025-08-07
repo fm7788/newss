@@ -355,7 +355,7 @@ export const originSources = {
     column: "china",
     color: "yellow",
     home: "https://www.ghxi.com/",
-    disable: true,
+//    disable: true,
   },
   "smzdm": {
     name: "什么值得买",
