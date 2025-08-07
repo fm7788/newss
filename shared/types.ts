@@ -50,7 +50,7 @@ export interface OriginSource extends Partial<Omit<Source, "name" | "redirect">>
     // home?: string
     // disable?: boolean
     // interval?: number
-  } & Partial<Omit<Source, "title" + "TOP" | "name" | "redirect">>>
+  } & Partial<Omit<Source, "title" | "name" | "redirect">>>
 }
 
 export interface Source {
