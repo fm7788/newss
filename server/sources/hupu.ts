@@ -8,7 +8,7 @@ interface Res {
 }
 
 export default defineSource(async () => {
-  const r: Res = await myFetch(`https://api.vvhan.com/api/hotlist/huPu`)
+  const r: Res = await myFetch(`https://newsnow.busiyi.world/api/s?id=hupu&latest`)
   return r.data.map((k) => {
     return {
       id: k.url,
