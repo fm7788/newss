@@ -55,7 +55,7 @@ export function Header() {
             <p>TOP</p>
             <p className="mt--1">
               <span className="color-primary-6">N</span>
-              <span>ows</span>
+              <span>ews</span>
             </p>
           </span>
         </Link>
